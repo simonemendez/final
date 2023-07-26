@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form Validation </title>
+		<link rel="icon" type="image/png" href=".png">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Bahiana&family=Ballet:opsz@16..72&family=Bangers&family=Barriecito&family=Barrio&family=Berkshire+Swash&family=Big+Shoulders+Stencil+Display:wght@100;600;900&family=Blaka+Hollow&family=Caveat&family=Caveat+Brush&family=Cookie&family=Covered+By+Your+Grace&family=Edu+QLD+Beginner&family=Fredericka+the+Great&family=Gloria+Hallelujah&family=Great+Vibes&family=Grenze+Gotisch:wght@100;200&family=Homemade+Apple&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,300&family=Kaushan+Script&family=Lobster+Two:ital@0;1&family=Monoton&family=Pacifico&family=Parisienne&family=Patrick+Hand&family=Permanent+Marker&family=Rock+Salt&family=Rubik+Moonrocks&family=Sacramento&family=Shadows+Into+Light&family=Special+Elite&family=Splash&family=Tangerine:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>
+       Form Validation
+    </h1>
+    <hr>
+ 
+
+    <form name="form" action="idk2.html" onsubmit="sumbitF">
+      <fieldset>
+   <br>
+      <legend style="font-weight:bold; font-size:1.1em; letter-spacing:1px;"> Your Information: </legend>
+ 
+      
+      <p class="title"> First Name</p> <br>
+        <input type="text" name="fName" id="fName" required>
+        <p id="a"> </p>
+        <p class="title"> Last Name</p>
+      <br>
+        <input type="text" name="lName" id="lName" required>
+        <p id="b"> </p>
+        <p class="title">Your age </p>
+      <br>
+        <input type="number" name="age" id="age" min="12" max="99" required>
+      <p id="c"></p>
+        <p class="title">Date of Birth (?? / ?? / ????) </p>
+      <br>
+        <input type="text" name="birth" id="birth" required>
+        <p id="d"> </p>
+        <p class="title">  Phone Number</p>
+     <br>
+        <input type="number" name="phone" id="phone" min="1000000000" max="99999999999" required>
+        <p id="e"> </p>
+
+        <p id="f"> </p>
+        <p class="title">E-mail </p>
+      <br>
+        <input type="text" name="email" id="email" required>
+        <p id="g"> </p>
+        <!--   <input id="submit" onclick="submitF()" type="submit">-->
+    <button id="submit" onclick="submitF()">Sumbit</button>
+  
+      </fieldset>
+    </form> 
+
+
+            
+<br>
+                <div id="footer">
+                  Web Development, Labs.
+                </div>
+  <script src="script.js"></script>
+
+   <hr>
+  <center> 
+
+<b> </b>  <a href= "../lastpage/index.html"> Go back to the Java Homepage</a>  </center>
+
+  <center>
+<a href= "../../index.html"> Go back Home </a>
+  </center>
+  <center>
+ <A href="../Lab23/index.html"> Lets go to my next project </A>
+  </center>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  box-sizing:border-box;
+  font-family: 'Special Elite', cursive;  
+}
+hr{
+  color:black;
+}
+h1{
+  letter-spacing:10px;
+}
+body{
+background-image:url('https://images.squarespace-cdn.com/content/v1/51c748abe4b0c275d0aa86bf/1519583119476-G6XMHWGH5X0XVV0M3VDC/news.gif');
+
+   font-weight:bold;
+  letter-spacing:1px;
+  color:lightgrey;
+  transition: 1s; 
+   text-shadow: 5px 5px 4px #000000;
+    font-size:1.2em;
+}
+
+fieldset{
+  height:935px;
+  magin:40px;
+  border:double;
+}
+
+button{
+margin-top:20px;
+  margin-botton:10px;
+  width:60px;
+  height:30px;
+  left:25px;
+  position:absolute;
+  background-color:white;
+  font-family:monospace;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

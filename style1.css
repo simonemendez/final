@@ -1,0 +1,16 @@
+/*
+.card {
+  /* this is how i wrapped my text around the card under the lab2 index  . but i decided not to float it left so leaving this here just in case
+  float: left; 
+}
+*/
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}

@@ -1,0 +1,22 @@
+blockquote {
+  background-color: lightblue;
+  border: dotted;
+  border-left: 10px solid green;
+
+}
+
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+body {
+     background-image: url("https://images.unsplash.com/photo-1518735881707-1a53be861a5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2401&q=80");
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+
+        }
